@@ -1,0 +1,28 @@
+{
+  "name": "unplugin-primevue-resolver",
+  "version": "1.0.0",
+  "description": "This is a custom resolver for unplugin, with an up-to-date list of PrimeVue components.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/**"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "unplugin",
+    "primevue",
+    "resolver"
+  ],
+  "author": "F1nnM",
+  "license": "AGPL-3.0-or-later",
+  "devDependencies": {
+    "typescript": "^5.4.2",
+    "unplugin-vue-components": "^0.26.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/F1nnM/unplugin-primevue-resolver.git"
+  },
+}
