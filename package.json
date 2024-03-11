@@ -1,6 +1,6 @@
 {
   "name": "unplugin-primevue-resolver",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a custom resolver for unplugin, with an up-to-date list of PrimeVue components.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -8,7 +8,10 @@
     "dist/**/**"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prebuild": "rm -rf dist",
+    "prepublish": "npm run build",
+    "publish": "npm publish"
   },
   "keywords": [
     "unplugin",
