@@ -1,6 +1,6 @@
 {
   "name": "unplugin-primevue-resolver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a custom resolver for unplugin, with an up-to-date list of PrimeVue components.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -24,5 +24,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/F1nnM/unplugin-primevue-resolver.git"
-  },
+  }
 }

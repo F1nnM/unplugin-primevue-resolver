@@ -3,6 +3,8 @@ import type { ComponentResolver, SideEffectsInfo } from 'unplugin-vue-components
 const components = [
   'Accordion',
   'AccordionTab',
+  //'AnimateOnScroll',
+  // AnimateOnScroll is a directive that must be installed globally
   'AutoComplete',
   'Avatar',
   'AvatarGroup',
@@ -21,9 +23,9 @@ const components = [
   'ColorPicker',
   'Column',
   'ColumnGroup',
-  // 'ConfirmDialog',
-  // 'ConfirmPopup',
-  // These must be registered globally in order for the confirm service to work properly
+  'ConfirmDialog',
+  'ConfirmPopup',
+  // The ConfirmationService must be installed globally
   'ContextMenu',
   'DataTable',
   'DataView',
@@ -33,16 +35,26 @@ const components = [
   'Divider',
   'Dock',
   'Dropdown',
+  'DynamicDialog',
+  // The DialogService must be installed globally
   'Editor',
   'Fieldset',
   'FileUpload',
+  'FloatLabel',
+  //'FocusTrap',
+  // FocusTrap is a directive that must be installed globally
   'FullCalendar',
   'Galleria',
+  'IconField',
   'Image',
   'InlineMessage',
   'Inplace',
+  'InputGroup',
+  'InputGroupAddon',
+  'InputIcon',
   'InputMask',
   'InputNumber',
+  'InputOtp',
   'InputSwitch',
   'InputText',
   'Knob',
@@ -51,6 +63,7 @@ const components = [
   'Menu',
   'Menubar',
   'Message',
+  'MeterGroup',
   'MultiSelect',
   'OrderList',
   'OrganizationChart',
@@ -64,6 +77,8 @@ const components = [
   'ProgressSpinner',
   'RadioButton',
   'Rating',
+  //'Ripple',
+  // Ripple is a directive that must be installed globally
   'Row',
   'ScrollPanel',
   'ScrollTop',
@@ -75,7 +90,11 @@ const components = [
   'SplitButton',
   'Splitter',
   'SplitterPanel',
+  'Stepper',
+  'StepperPanel',
   'Steps',
+  //'StyleClass',
+  // StyleClass is a directive that must be installed globally
   'TabMenu',
   'TabPanel',
   'TabView',
@@ -84,9 +103,13 @@ const components = [
   'TerminalService',
   'Textarea',
   'TieredMenu',
+  'Timeline',
+  'Toast',
+  // The ToastService must be installed globally
+  'ToggleButton',
   'Toolbar',
   // 'Tooltip',
-  // Tooltip must be registered globally in order for the tooltip service to work properly
+  // Tooltips are a directive that must be installed globally
   'Tree',
   'TreeSelect',
   'TreeTable',
