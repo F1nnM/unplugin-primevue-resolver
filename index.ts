@@ -12,6 +12,7 @@ const components = [
   'BlockUI',
   'Breadcrumb',
   'Button',
+  'ButtonGroup',
   'Calendar',
   'Card',
   'Carousel',
