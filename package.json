@@ -1,6 +1,6 @@
 {
   "name": "unplugin-primevue-resolver",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "This is a custom resolver for unplugin, with an up-to-date list of PrimeVue components.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
