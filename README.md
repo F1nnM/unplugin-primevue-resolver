@@ -1,3 +1,8 @@
+# Deprecated
+Use the official `@primevue/auto-import-resolver` instead.
+
+
+
 # unplugin-primevue-resolver
 A resolver for the [unplugin-vue-components](https://www.npmjs.com/package/unplugin-vue-components) for use with [PrimeVue](https://primevue.org/) components.
 
